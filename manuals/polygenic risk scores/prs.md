@@ -29,6 +29,8 @@ wget https://github.com/WCSCourses/HumanGenEpi/raw/main/manuals/Polygenic_risk_s
 
 wget https://github.com/WCSCourses/HumanGenEpi/raw/main/manuals/Polygenic_risk_scores/PRSice.R
 
+wget https://github.com/tinashedoc/African-Genomics-Week/blob/main/manuals/polygenic%20risk%20scores/PRSice_mac
+
 #Unzip the following files as shown below
 
 xz -dv ASN.gwas.txt.xz
