@@ -29,7 +29,7 @@ wget https://github.com/WCSCourses/HumanGenEpi/raw/main/manuals/Polygenic_risk_s
 
 wget https://github.com/WCSCourses/HumanGenEpi/raw/main/manuals/Polygenic_risk_scores/PRSice.R
 
-wget https://github.com/tinashedoc/African-Genomics-Week/blob/main/manuals/GWAS/PRSice_mac
+wget https://github.com/WCSCourses/HumanGenEpi/blob/main/manuals/Polygenic_risk_scores/PRSice_mac
 
 #Unzip the following files as shown below
 
@@ -37,6 +37,7 @@ xz -dv ASN.gwas.txt.xz
 xz -dv ASN.bed.xz
 ```
 
+# For those with Mac(OS X 64-bit), please use PRSice_mac instead of PRSice_linux
 
 ## 1. Training the PRS to find the best predictive one using the validation target data set
 
@@ -78,7 +79,7 @@ Rscript PRSice.R --prsice PRSice_linux --base ASN.gwasqc.txt --target ASN --bina
 
 ``` bash
 Rscript PRSice.R --prsice PRSice_linux --base ASN.gwasqc.txt --binary F --target ASN --keep validate --pheno ASN.pheno --cov ASN.cov –-clump-kb 
-250 –-clump-r2 0.3 –-base-info INFO:0.4 --out Opt250_0.5
+250 –-clump-r2 0.3 –-base-info INFO:0.4 --out Opt250_0.3
 ```
 ***Which parametes give the best predictive PRS ? Lets print out the SNPs of the best predictive PRS***
 
