@@ -113,4 +113,8 @@ Rscript PRSice.R --prsice PRSice_linux --base Bestprs_disc --target ASN --keep t
 
 https://github.com/tinashedoc/African-Genomics-Week/tree/main/manuals/polygenic%20risk%20scores/Tutorial%20outputs/
 
+***You can access the tutorial video on the link below***
+
+https://drive.google.com/file/d/14aWmo9u8B5VbbW3nB-TuRYw1a_ciybWf/view?usp=sharing 
+
 
