@@ -99,7 +99,7 @@ awk '$4 <= 0.46875' validation.snp | awk '{print $2}' > PRS_snps
 **Lets make a discovery data set of the SNPs for the best predictive PRS***
 
 ```bash
-grep -wf PRS_snps ASN.gwasqc.txt | sed '1i\CHR BP SNP A1 A2 N SE P OR INFO MAF' > Bestprs_disc
+grep -wf PRS_snps ASN.gwasqc.txt | sed '' '1i\CHR BP SNP A1 A2 N SE P OR INFO MAF' > Bestprs_disc
 
 ```
 ***Finally lets run this best PRS in the test dataset and create a decile plot***
