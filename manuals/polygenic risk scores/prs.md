@@ -110,7 +110,7 @@ Rscript PRSice.R --prsice PRSice_linux --base Bestprs_disc --target ASN --keep t
 
 ```
 ***The output files for running this tutorial can be downloaded by running the code below***
-``` bash
-wget https://github.com/tinashedoc/African-Genomics-Week/tree/main/manuals/polygenic%20risk%20scores/Tutorial%20outputs/*
-```
+
+https://github.com/tinashedoc/African-Genomics-Week/tree/main/manuals/polygenic%20risk%20scores/Tutorial%20outputs/*
+
 
