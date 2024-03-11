@@ -98,7 +98,7 @@ awk '$4 <= 0.46875' validation.snp | awk '{print $2}' > PRS_snps
 **Lets make a discovery data set of the SNPs for the best predictive PRS***
 
 ```bash
-grep -wf PRS_snps ASN.gwasqc.txt > Bestprs_disc
+awk 'NR==FNR ? a[$1] : $3 in a' PRS_snps ASN.gwasqc.txt > Bestprs_disc
 sed -i '' '1i\
 CHR BP SNP A1 A2 N SE P OR INFO MAF
 ' Bestprs_disc
