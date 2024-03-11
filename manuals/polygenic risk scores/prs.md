@@ -1,5 +1,5 @@
 #  Polygenic risk score manual
-In this manual you will learn how to compute polygenic risck scores using **PRSice** (https://www.prsice.info/) 
+In this manual you will learn how to compute polygenic risck scores using **PRSice** (https://choishingwan.github.io/PRSice/) 
 
 **You will need to download the following files for this practical** 
 
@@ -27,14 +27,13 @@ wget https://github.com/WCSCourses/HumanGenEpi/raw/main/manuals/Polygenic_risk_s
 
 wget https://github.com/WCSCourses/HumanGenEpi/raw/main/manuals/Polygenic_risk_scores/PRSice_linux
 
-wget https://github.com/WCSCourses/HumanGenEpi/raw/main/manuals/Polygenic_risk_scores/PRSice.R
-
-wget https://github.com/WCSCourses/HumanGenEpi/blob/main/manuals/Polygenic_risk_scores/PRSice_mac
+wget https://github.com/choishingwan/PRSice/releases/download/2.3.5/PRSice_mac.zip 
 
 #Unzip the following files as shown below
 
 xz -dv ASN.gwas.txt.xz
 xz -dv ASN.bed.xz
+unzip PRSice_mac.zip
 ```
 
 # For those with Mac(OS X 64-bit), please use PRSice_mac instead of PRSice_linux
