@@ -34,6 +34,7 @@ wget https://github.com/choishingwan/PRSice/releases/download/2.3.5/PRSice_mac.z
 xz -dv ASN.gwas.txt.xz
 xz -dv ASN.bed.xz
 unzip PRSice_mac.zip
+rm TOY*
 ```
 
 # For those with Mac(OS X 64-bit), please use PRSice_mac instead of PRSice_linux
