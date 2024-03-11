@@ -73,7 +73,7 @@ PRS R2 and how many SNPs are in the best preforming PRS ?
 *   clump-kb 500 clump-r2 0.1
 
 ``` bash 
-Rscript PRSice.R --prsice PRSice_linux --base ASN.gwasqc.txt --target ASN --binary F --keep validate --pheno ASN.pheno --cov ASN.cov –-clump-kb 500 –-clump-r2 0.1 –-base-info INFO:0.4 --out Opt500_0.1
+Rscript PRSice.R --prsice PRSice_linux --base ASN.gwasqc.txt --target ASN --binary F --keep validate --pheno ASN.pheno --cov ASN.cov --clump-kb 500 --clump-r2 0.1 --base-info INFO:0.4 --out Opt500_0.1
 ```
 *  clump-kb 250 clump-r2 0.3
 
