@@ -78,13 +78,12 @@ Rscript PRSice.R --prsice PRSice_linux --base ASN.gwasqc.txt --target ASN --bina
 *  clump-kb 250 clump-r2 0.3
 
 ``` bash
-Rscript PRSice.R --prsice PRSice_linux --base ASN.gwasqc.txt --binary F --target ASN --keep validate --pheno ASN.pheno --cov ASN.cov –-clump-kb 
-250 –-clump-r2 0.3 –-base-info INFO:0.4 --out Opt250_0.3
+Rscript PRSice.R --prsice PRSice_linux --base ASN.gwasqc.txt --binary F --target ASN --keep validate --pheno ASN.pheno --cov ASN.cov --clump-kb 250 --clump-r2 0.3 --base-info INFO:0.4 --out Opt250_0.3
 ```
 ***Which parametes give the best predictive PRS ? Lets print out the SNPs of the best predictive PRS***
 
 ``` bash
-Rscript PRSice.R --prsice PRSice_linux --base ASN.gwasqc.txt --target ASN --keep validate --pheno ASN.pheno --binary F --cov ASN.cov –-clump-kb 500 –-clump-r2 0.1 –-base-info INFO:0.4 –-print-snp –-out validation
+Rscript PRSice.R --prsice PRSice_linux --base ASN.gwasqc.txt --target ASN --keep validate --pheno ASN.pheno --binary F --cov ASN.cov --clump-kb 500 --clump-r2 0.1 --base-info INFO:0.4 --print-snp --out validation
 
 ```
 
