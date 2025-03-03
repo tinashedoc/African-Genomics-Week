@@ -33,11 +33,10 @@ wget https://github.com/choishingwan/PRSice/releases/download/2.3.5/PRSice_mac.z
 
 xz -dv ASN.gwas.txt.xz
 xz -dv ASN.bed.xz
-unzip PRSice_mac.zip
+unzip PRSice_linux.zip
+chmod +x PRSice_linux
 rm TOY*
 ```
-
-# For those with Mac(OS X 64-bit), please use PRSice_mac instead of PRSice_linux
 
 ## 1. Training the PRS to find the best predictive one using the validation target data set
 
@@ -99,7 +98,7 @@ awk '$4 <= 0.46875' validation.snp | awk '{print $2}' > PRS_snps
 
 ```bash
 awk 'NR==FNR ? a[$1] : $3 in a' PRS_snps ASN.gwasqc.txt > Bestprs_disc
-sed -i '' '1i\
+sed -i '1i\
 CHR BP SNP A1 A2 N SE P OR INFO MAF
 ' Bestprs_disc
 ```
